@@ -1,5 +1,7 @@
 # KukuCast AI - Your Personalized Audio Storyteller
 
+🌐 **Live Demo**: [https://kuku-cast-prototype.vercel.app/](https://kuku-cast-prototype.vercel.app/)
+
 A cutting-edge AI-driven feature designed to increase daily engagement on the Kuku FM platform by providing personalized, bite-sized audio content tailored to user preferences, mood, and listening habits.
 
 ## 🎯 Core Concept
@@ -160,20 +162,57 @@ The app header provides quick access to main features:
    - Additional voice options
    - Enhanced gamification features
 
-## 🛠️ Local Development
+## 🚀 Getting Started
 
-1. Clone the repository
-2. Install dependencies:
-```
-npm install
-```
+### Live Demo
+Visit the live demo: [https://kuku-cast-prototype.vercel.app/](https://kuku-cast-prototype.vercel.app/)
 
-3. Start the development server:
-```
-npm start
-```
+### Prerequisites
+- Node.js (v14 or higher)
+- npm (v6 or higher)
 
-4. Open [http://localhost:3000](http://localhost:3000) to view the prototype in your browser.
+### Installation Steps
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Devmangrani/KukuCast-AI---Your-Personalized-Audio-Storyteller.git
+   cd KukuCast-AI---Your-Personalized-Audio-Storyteller
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm start
+   ```
+
+4. **Open in browser**
+   - The application will automatically open in your default browser at `http://localhost:3000`
+   - If it doesn't open automatically, you can manually navigate to `http://localhost:3000`
+
+### Available Scripts
+
+- `npm start` - Runs the app in development mode
+- `npm test` - Launches the test runner
+- `npm run build` - Builds the app for production
+- `npm run eject` - Ejects from Create React App (Note: this is a one-way operation)
+
+## 📸 Screenshots
+
+### Main Dashboard
+![Main Dashboard](screenshots/dashboard.png)
+*The main dashboard showing personalized content and user statistics*
+
+### Preferences Panel
+![Preferences Panel](screenshots/preferences.png)
+*User preferences panel for customizing the listening experience*
+
+### Audio Player
+![Audio Player](screenshots/player.png)
+*Interactive audio player with progress tracking and controls*
 
 ## 🔮 Future Enhancements
 
@@ -183,4 +222,11 @@ npm start
 - **Content Categories**: Expanded range of content types and subjects
 - **Advanced Analytics**: Deeper insights into user engagement patterns
 - **Personalized Notifications**: Smart alerts based on usage patterns
-- **Integration with Smart Devices**: Support for smart speakers and wearables 
+- **Integration with Smart Devices**: Support for smart speakers and wearables
+
+## 🌐 Deployment
+
+The application is deployed and accessible at:
+- **Production URL**: [https://kuku-cast-prototype.vercel.app/](https://kuku-cast-prototype.vercel.app/)
+- **Platform**: Vercel
+- **Auto Deployment**: Enabled for all pushes to the main branch 
